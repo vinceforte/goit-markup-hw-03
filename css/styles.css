@@ -1,0 +1,188 @@
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+
+.web-log {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.studio-logo {
+  color: #212121;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.menu-item {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: #2196f3;
+}
+
+.top {
+  color: #2196f3;
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+}
+
+.button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+}
+
+.button-item:hover,
+.button-item:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.portfolio-items {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.product-item {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
+}
+
+.studio-logo-footer {
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+.background-down {
+  background: #2f303a;
+}
+
+.contact-down {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-down:hover {
+  color: #2196f3;
+}
+
+.contact-adress {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.background-top {
+  background: #2f303a;
+}
+
+.main-moto {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.order-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+}
+
+.perfomance-item {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0.87;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.perfomance-describtion {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.who-we-are {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 0.85;
+  text-align: center;
+}
+
+.team-mate {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.84;
+  text-align: center;
+  color: #212121;
+}
+
+.team-role {
+  font-size: 16px;
+  line-height: 0.84;
+  text-align: center;
+  color: #757575;
+}
