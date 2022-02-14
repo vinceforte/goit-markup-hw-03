@@ -34,11 +34,73 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-bottom: 94px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-block {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-items:not(:last-child) {
+  margin-right: 50px;
+}
+
+.mail {
+  margin-right: 50px;
+}
+
+.buttons-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  margin-left: 280px;
+}
+
+.buttons-list:not(:last-child) {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-left: -30px;
+  margin-top: -30px; */
+  justify-content: space-between;
+}
+
+.projects-item {
+  /* flex-basis: calc((100%-90px) / 3); */
+  margin-bottom: 30px;
 }
 
 .web-log {
@@ -57,6 +119,7 @@ img {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
+  margin-right: 93px;
 }
 
 .menu-item {
@@ -120,7 +183,7 @@ img {
 .product-item {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1;
   color: #757575;
 }
 
@@ -132,8 +195,20 @@ img {
   font-size: 26px;
   line-height: 31px;
 }
+
+.logo-footer {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.contacts-footer {
+  padding-bottom: 9px;
+}
+
 .background-down {
   background: #2f303a;
+  height: 253px;
+  margin-top: 64px;
 }
 
 .contact-down {
@@ -155,6 +230,7 @@ img {
 
 .background-top {
   background: #2f303a;
+  height: 600px;
 }
 
 .main-moto {
@@ -164,6 +240,14 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
 }
 
 .order-button {
@@ -178,6 +262,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
+  width: 200px;
+  height: 50px;
 }
 
 .perfomance-item {
