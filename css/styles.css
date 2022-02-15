@@ -208,7 +208,6 @@ img {
 .background-down {
   background: #2f303a;
   height: 253px;
-  margin-top: 64px;
 }
 
 .contact-down {
@@ -231,6 +230,7 @@ img {
 .background-top {
   background: #2f303a;
   height: 600px;
+  margin-bottom: 94px;
 }
 
 .main-moto {
@@ -255,6 +255,7 @@ img {
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   color: #ffffff;
@@ -266,12 +267,24 @@ img {
   height: 50px;
 }
 
+.perfomance-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 94px;
+}
+
+.perfomance-menu {
+  margin-right: 30px;
+}
+
 .perfomance-item {
   font-weight: bold;
   font-size: 14px;
   line-height: 0.87;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .perfomance-describtion {
@@ -280,11 +293,40 @@ img {
   color: #757575;
 }
 
+.pics-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 94px;
+}
+
+.pics-items {
+  margin-right: 30px;
+}
+
+.team-background {
+  background-color: #f5f4fa;
+  height: 648px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* margin-top: 50px; */
+}
+
+.our-team {
+  padding-top: 94px;
+  margin-bottom: 50px;
+}
+
 .who-we-are {
   font-weight: bold;
   font-size: 36px;
   line-height: 0.85;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-mate {
