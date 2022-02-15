@@ -101,6 +101,10 @@ img {
 .projects-item {
   /* flex-basis: calc((100%-90px) / 3); */
   margin-bottom: 30px;
+  width: 370px;
+  height: 404px;
+  /* border-color: #ffffff;
+  border-width: solid; */
 }
 
 .web-log {
@@ -178,6 +182,10 @@ img {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  border-color: #eeeeee;
+  stroke: solid;
 }
 
 .product-item {
@@ -185,6 +193,7 @@ img {
   font-size: 16px;
   line-height: 1;
   color: #757575;
+  margin-bottom: 20px;
 }
 
 .studio-logo-footer {
@@ -313,7 +322,13 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* margin-top: 50px; */
+}
+
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  background-color: #ffffff;
+  margin-right: 30px;
 }
 
 .our-team {
@@ -335,6 +350,8 @@ img {
   line-height: 0.84;
   text-align: center;
   color: #212121;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-role {
