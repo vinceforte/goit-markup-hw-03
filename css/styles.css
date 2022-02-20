@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -42,9 +42,9 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-bottom: 94px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; */
+  /* margin-bottom: 94px; */
   border-bottom: 1px solid #ececec;
 }
 
@@ -91,12 +91,14 @@ img {
   margin-right: 8px;
 }
 
+/* ====== START calc() ======= */
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
   /* margin-left: -30px;
   margin-top: -30px; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .projects-item {
@@ -105,10 +107,13 @@ img {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
-
+  width: calc(100% / 3 - 30px);
+  margin: 15px;
   /* border-color: #ffffff;
   border-width: solid; */
 }
+
+/* ======= FINISH calc () ====== */
 
 .web-log {
   color: #2196f3;
@@ -134,6 +139,8 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+  padding: 32px 0px;
+  display: inline-block;
 }
 
 .menu-item:hover,
@@ -186,9 +193,8 @@ img {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  margin-top: 20px;
+
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 
 .product-item {
@@ -196,8 +202,10 @@ img {
   font-size: 16px;
   line-height: 1;
   color: #757575;
-  margin-bottom: 20px;
-  margin-left: 24px;
+}
+
+.portfolio-cards {
+  padding: 20px 24px;
 }
 
 .studio-logo-footer {
@@ -243,7 +251,11 @@ img {
 .background-top {
   background: #2f303a;
   height: 600px;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+}
+
+.section {
+  padding: 94px 0px;
 }
 
 .main-moto {
@@ -280,11 +292,15 @@ img {
   height: 50px;
 }
 
+.order-button:hover {
+  background: #188ce8;
+}
+
 .perfomance-list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 .perfomance-menu {
@@ -310,7 +326,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
+}
+
+.section-middle {
+  padding-bottom: 94px;
 }
 
 .pics-items {
@@ -321,20 +341,23 @@ img {
   background-color: #f5f4fa;
   height: 648px;
 }
-
+/* =========calc () STARTING======== */
 .team-list {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  /* justify-content: space-between;
+  align-items: flex-start; */
+  margin: -15px;
 }
 
 .team-list-item {
-  width: 270px;
-  height: 368px;
+  /* width: 270px;
+  height: 368px; */
   background-color: #ffffff;
-  margin-right: 30px;
+  /* margin-right: 30px; */
+  width: calc(100% / 4 - 30px);
+  margin: 15px;
 }
-
+/* =========CALC () FINISHING ======= */
 .our-team {
   padding-top: 94px;
   margin-bottom: 50px;
@@ -354,7 +377,6 @@ img {
   line-height: 0.84;
   text-align: center;
   color: #212121;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -363,4 +385,8 @@ img {
   line-height: 0.84;
   text-align: center;
   color: #757575;
+}
+
+.team-cards {
+  padding: 30px 0px;
 }
