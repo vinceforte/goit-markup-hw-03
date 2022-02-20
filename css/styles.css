@@ -45,6 +45,7 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
   margin-bottom: 94px;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -104,6 +105,7 @@ img {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+
   /* border-color: #ffffff;
   border-width: solid; */
 }
@@ -163,6 +165,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
 }
 
 .button-item:hover,
